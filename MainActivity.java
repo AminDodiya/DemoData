@@ -98,4 +98,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
         return output;
     }
+    compile 'com.google.code.gson:gson:2.6.2'
+    compile 'com.squareup.retrofit2:retrofit:2.0.2'
+    compile 'com.squareup.retrofit2:converter-gson:2.0.2'
+    compile 'javax.annotation:javax.annotation-api:1.2'
 }
